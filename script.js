@@ -7,7 +7,7 @@ for (let i = 1; i <= 31; i++) {
     botao.textContent = i;
 
     botao.addEventListener("click", () => {
-        imagem.src = `img/${i}.jpg`;
+        imagem.src = `${i}.jpg`;
         imagem.alt = `Dia ${i}`;
 
         // Remove classe ativa de todos
